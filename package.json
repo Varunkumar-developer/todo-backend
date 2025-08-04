@@ -2,7 +2,7 @@
   "name": "todo-server",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx json-server --watch data/todos.json --port 10000"
+    "start": "npx json-server --watch data/todos.json --port $PORT"
   },
   "dependencies": {
     "json-server": "^0.17.4"
